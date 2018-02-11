@@ -25,7 +25,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/';//自定义了主页控制器和view,所有要把/home替换为/
 
     /**
      * Create a new controller instance.

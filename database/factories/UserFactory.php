@@ -13,7 +13,8 @@ use Faker\Generator as Faker;
 |
 */
 
-$factory->define(App\User::class, function (Faker $faker) {
+$factory->define(App\Models\User::class, function (Faker $faker) {
+    # User模型位置移动之后,需要在多处修改指向
     return [
         'name' => $faker->name,
         'email' => $faker->unique()->safeEmail,

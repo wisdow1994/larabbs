@@ -11,6 +11,8 @@
 |
 */
 
+require __DIR__ . '/helpers.php';//加载了自定义辅助函数的文件位置
+
 $app = new Illuminate\Foundation\Application(
     realpath(__DIR__.'/../')
 );

@@ -27,7 +27,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/';//自定义了主页控制器和view,所有要把/home替换为/
 
     /**
      * Create a new controller instance.
@@ -51,7 +51,12 @@ class RegisterController extends Controller
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
-        ]);
+            'captcha' => 'required|captcha',//添加了对captcha的验证
+        ], [
+                'captcha.required' => '验证码不能为空',
+                'captcha.captcha' => '请输入正确的验证码',
+            ]//make的第三个参数,定义验证规则的message
+        );
     }
 
     /**

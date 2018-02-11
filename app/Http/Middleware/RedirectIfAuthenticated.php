@@ -18,7 +18,7 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next, $guard = null)
     {
         if (Auth::guard($guard)->check()) {
-            return redirect('/home');
+            return redirect('/');//自定义了主页控制器和view,所有要把重定向的位置/home替换为/
         }
 
         return $next($request);

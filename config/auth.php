@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\User::class,
+            'model' => App\Models\User::class,//User模型位置移动之后,需要在多处修改指向
         ],
 
         // 'users' => [
