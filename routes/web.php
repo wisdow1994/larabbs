@@ -31,3 +31,13 @@ Route::post('password/reset', 'Auth\ResetPasswordController@reset');
 
 //Route::get('/home', 'HomeController@index')->name('home');
 //php artisan make:auth自动创建的主页控制器,已经删除自动创建的控制器和view文件
+
+Route::resource('users', 'UsersController', ['only' => ['show', 'update', 'edit']]);
+/*
+ * Route::resource时，name参数不能带下划线
+ * 效果相当于上面一行代码
+ * 路由声明时必须使用 Eloquent 模型的单数小写格式来作为 路由片段参数，User 对应 {user}
+ * Route::get('/users/{user}', 'UsersController@show')->name('users.show');
+Route::get('/users/{user}/edit', 'UsersController@edit')->name('users.edit');
+Route::patch('/users/{user}', 'UsersController@update')->name('users.update');
+ */
