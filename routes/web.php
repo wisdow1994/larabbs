@@ -29,4 +29,5 @@ Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail'
 Route::get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
 Route::post('password/reset', 'Auth\ResetPasswordController@reset');
 
-//Route::get('/home', 'HomeController@index')->name('home');//php artisan make:auth自动创建的主页控制器
+//Route::get('/home', 'HomeController@index')->name('home');
+//php artisan make:auth自动创建的主页控制器,已经删除自动创建的控制器和view文件
