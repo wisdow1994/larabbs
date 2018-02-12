@@ -16,12 +16,15 @@ class TopicsController extends Controller
 
 	public function index()
 	{
-		$topics = Topic::paginate();
-		return view('topics.index', compact('topics'));
+//		$topics = Topic::paginate(30);//会有一个N+1问题存在,sql查询次数为30*2+1次查询,时间为11.6s
+        $topics = Topic::with('user', 'category')->paginate(30);
+        //可以通过 Eloquent 提供的 预加载功能 来解决此问题，sql查询次数为5次,时间为2.6s
+        return view('topics.index', compact('topics'));
 	}
 
     public function show(Topic $topic)
     {
+
         return view('topics.show', compact('topic'));
     }
 
