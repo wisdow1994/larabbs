@@ -14,11 +14,15 @@ class TopicsController extends Controller
         $this->middleware('auth', ['except' => ['index', 'show']]);
     }
 
-	public function index()
+    public function index(Request $request, Topic $topic)
 	{
 //		$topics = Topic::paginate(30);//会有一个N+1问题存在,sql查询次数为30*2+1次查询,时间为11.6s
-        $topics = Topic::with('user', 'category')->paginate(30);
+//        $topics = Topic::with('user', 'category')->paginate(30);
         //可以通过 Eloquent 提供的 预加载功能 来解决此问题，sql查询次数为5次,时间为2.6s
+
+        $topics = $topic->withOrder($request->order)->paginate(20);
+        //withOrder方法已经封装了with方法用于预加载
+        //$request->order 是获取 URI http://larabbs.test/topics?order=recent 中的 order 参数
         return view('topics.index', compact('topics'));
 	}
 

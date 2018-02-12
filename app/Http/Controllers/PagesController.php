@@ -8,6 +8,6 @@ class PagesController extends Controller
 {
     function root()
     {
-        return view('pages.root');//首页
+        return view('users.root');//首页
     }
 }
