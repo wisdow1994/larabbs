@@ -2,6 +2,983 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ea102cc-cefc-43d9-b716-87104986eaa1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/.bowerrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/Gemfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/Gruntfile.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/circle.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/jekyll.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/lib/simditor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/.bowerrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/.jscsrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/AUTHORS.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/MIT-LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/dist/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/dist/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/dist/jquery.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/ajax/jsonp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/ajax/load.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/ajax/parseJSON.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/ajax/parseXML.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/ajax/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/ajax/var/nonce.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/ajax/var/rquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/ajax/xhr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/attributes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/attributes/attr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/attributes/classes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/attributes/prop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/attributes/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/attributes/val.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/callbacks.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/core/access.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/core/init.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/core/parseHTML.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/core/ready.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/core/var/rsingleTag.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/css.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/css/addGetHookIf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/css/curCSS.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/css/defaultDisplay.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/css/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/css/swap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/css/var/cssExpand.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/css/var/getStyles.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/css/var/isHidden.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/css/var/rmargin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/css/var/rnumnonpx.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/data/Data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/data/accepts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/data/var/data_priv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/data/var/data_user.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/deferred.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/deprecated.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/dimensions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/effects.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/effects/Tween.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/effects/animatedSelector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/event.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/event/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/event/alias.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/event/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/exports/amd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/exports/global.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/intro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/manipulation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/manipulation/_evalUrl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/manipulation/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/manipulation/var/rcheckableType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/offset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/outro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/queue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/queue/delay.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/selector-native.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/selector-sizzle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/selector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/serialize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/sizzle/dist/sizzle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/sizzle/test/data/empty.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/sizzle/test/data/mixed_sort.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/sizzle/test/data/testinit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/sizzle/test/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/sizzle/test/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/sizzle/test/unit/extending.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/sizzle/test/unit/selector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/sizzle/test/unit/utilities.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/traversing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/traversing/findFilter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/traversing/var/rneedsContext.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/var/arr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/var/class2type.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/var/concat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/var/hasOwn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/var/indexOf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/var/pnum.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/var/push.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/var/rnotwhite.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/var/slice.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/var/strundefined.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/var/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/var/toString.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/node_modules/jquery/src/wrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/server.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/CNAME" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/_data/button.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/_data/configs.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/_data/events.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/_data/methods.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/_includes/doc-sidebar.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/_includes/footer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/_includes/header.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/_layouts/default.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/_layouts/doc.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/_layouts/tour.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/_coffee/page-demo.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/_coffee/page-download.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/_coffee/page-form.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/_sass/app.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/_sass/function.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/_sass/highlight.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/_sass/mobile.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/_sass/reset.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/images/fork.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/images/image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/images/logo@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/images/title.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/images/title@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/scripts/hotkeys.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/scripts/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/scripts/mobilecheck.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/scripts/module.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/scripts/page-demo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/scripts/page-doc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/scripts/page-download.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/scripts/page-form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/scripts/simditor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/scripts/uploader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/styles/app.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/styles/mobile.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/assets/styles/simditor.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/demo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/docs/doc-config.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/docs/doc-dev-env.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/docs/doc-event.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/docs/doc-method.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/docs/doc-usage.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/extension.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/site/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/buttons/alignment-spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/buttons/bold-spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/buttons/code-spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/buttons/font-scale-spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/buttons/table-spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/buttons/title-spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/core-spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/formatter-spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/indentation-spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/src/buttons/alignment-spec.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/src/buttons/bold-spec.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/src/buttons/code-spec.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/src/buttons/font-scale-spec.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/src/buttons/table-spec.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/src/buttons/title-spec.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/src/core-spec.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/src/formatter-spec.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/src/indentation-spec.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/src/util.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/spec/util.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/alignment.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/blockquote.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/bold.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/button.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/code.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/color.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/font-scale.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/hr.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/image.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/indent.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/italic.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/link.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/list.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/outdent.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/popover.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/strikethrough.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/table.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/title.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/buttons/underline.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/clipboard.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/core.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/formatter.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/i18n.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/indentation.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/inputManager.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/keystroke.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/selection.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/toolbar.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/undoManager.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/src/util.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/styles/editor.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/styles/fonticon.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/styles/simditor.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/styles/simditor.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simditor/umd.hbs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/.bowerrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/Gruntfile.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/circle.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/demo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/lib/hotkeys.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/AUTHORS.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/dist/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/dist/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/dist/jquery.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/external/sizzle/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/external/sizzle/dist/sizzle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/external/sizzle/dist/sizzle.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/external/sizzle/dist/sizzle.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/.jshintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/ajax/jsonp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/ajax/load.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/ajax/parseJSON.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/ajax/parseXML.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/ajax/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/ajax/var/location.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/ajax/var/nonce.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/ajax/var/rquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/ajax/xhr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/attributes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/attributes/attr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/attributes/classes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/attributes/prop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/attributes/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/attributes/val.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/callbacks.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/core/access.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/core/init.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/core/parseHTML.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/core/ready.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/core/var/rsingleTag.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css/addGetHookIf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css/adjustCSS.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css/curCSS.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css/defaultDisplay.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css/showHide.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css/var/cssExpand.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css/var/getStyles.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css/var/isHidden.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css/var/rmargin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css/var/rnumnonpx.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/css/var/swap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/data/Data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/data/var/acceptData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/data/var/dataPriv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/data/var/dataUser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/deferred.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/deprecated.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/dimensions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/effects.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/effects/Tween.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/effects/animatedSelector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/event.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/event/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/event/alias.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/event/focusin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/event/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/event/trigger.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/exports/amd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/exports/global.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/intro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/manipulation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/manipulation/_evalUrl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/manipulation/buildFragment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/manipulation/getAll.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/manipulation/setGlobalEval.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/manipulation/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/manipulation/var/rcheckableType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/manipulation/var/rscriptType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/manipulation/var/rtagName.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/manipulation/wrapMap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/offset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/outro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/queue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/queue/delay.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/selector-native.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/selector-sizzle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/selector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/serialize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/traversing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/traversing/findFilter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/traversing/var/dir.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/traversing/var/rneedsContext.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/traversing/var/siblings.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/arr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/class2type.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/concat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/document.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/documentElement.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/hasOwn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/indexOf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/pnum.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/push.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/rcssNum.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/rnotwhite.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/slice.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/var/toString.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/node_modules/jquery/src/wrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/spec/hotkeys-spec.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/spec/hotkeys-spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/src/hotkeys.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-hotkeys/umd.hbs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/.bowerrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/Gruntfile.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/lib/module.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/AUTHORS.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/dist/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/dist/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/dist/jquery.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/external/sizzle/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/external/sizzle/dist/sizzle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/external/sizzle/dist/sizzle.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/external/sizzle/dist/sizzle.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/.jshintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/ajax/jsonp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/ajax/load.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/ajax/parseJSON.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/ajax/parseXML.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/ajax/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/ajax/var/location.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/ajax/var/nonce.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/ajax/var/rquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/ajax/xhr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/attributes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/attributes/attr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/attributes/classes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/attributes/prop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/attributes/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/attributes/val.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/callbacks.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/core/access.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/core/init.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/core/parseHTML.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/core/ready.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/core/var/rsingleTag.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css/addGetHookIf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css/adjustCSS.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css/curCSS.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css/defaultDisplay.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css/showHide.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css/var/cssExpand.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css/var/getStyles.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css/var/isHidden.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css/var/rmargin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css/var/rnumnonpx.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/css/var/swap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/data/Data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/data/var/acceptData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/data/var/dataPriv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/data/var/dataUser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/deferred.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/deprecated.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/dimensions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/effects.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/effects/Tween.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/effects/animatedSelector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/event.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/event/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/event/alias.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/event/focusin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/event/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/event/trigger.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/exports/amd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/exports/global.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/intro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/manipulation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/manipulation/_evalUrl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/manipulation/buildFragment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/manipulation/getAll.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/manipulation/setGlobalEval.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/manipulation/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/manipulation/var/rcheckableType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/manipulation/var/rscriptType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/manipulation/var/rtagName.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/manipulation/wrapMap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/offset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/outro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/queue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/queue/delay.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/selector-native.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/selector-sizzle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/selector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/serialize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/traversing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/traversing/findFilter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/traversing/var/dir.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/traversing/var/rneedsContext.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/traversing/var/siblings.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/arr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/class2type.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/concat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/document.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/documentElement.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/hasOwn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/indexOf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/pnum.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/push.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/rcssNum.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/rnotwhite.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/slice.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/var/toString.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/node_modules/jquery/src/wrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/spec/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/spec/module-spec.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/spec/module-spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-module/src/module.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/.bowerrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/Gruntfile.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/demo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/lib/uploader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/AUTHORS.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/dist/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/dist/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/dist/jquery.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/external/sizzle/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/external/sizzle/dist/sizzle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/external/sizzle/dist/sizzle.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/external/sizzle/dist/sizzle.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/.jshintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/ajax/jsonp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/ajax/load.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/ajax/parseJSON.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/ajax/parseXML.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/ajax/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/ajax/var/location.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/ajax/var/nonce.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/ajax/var/rquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/ajax/xhr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/attributes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/attributes/attr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/attributes/classes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/attributes/prop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/attributes/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/attributes/val.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/callbacks.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/core/access.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/core/init.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/core/parseHTML.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/core/ready.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/core/var/rsingleTag.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css/addGetHookIf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css/adjustCSS.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css/curCSS.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css/defaultDisplay.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css/showHide.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css/var/cssExpand.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css/var/getStyles.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css/var/isHidden.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css/var/rmargin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css/var/rnumnonpx.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/css/var/swap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/data/Data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/data/var/acceptData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/data/var/dataPriv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/data/var/dataUser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/deferred.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/deprecated.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/dimensions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/effects.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/effects/Tween.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/effects/animatedSelector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/event.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/event/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/event/alias.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/event/focusin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/event/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/event/trigger.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/exports/amd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/exports/global.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/intro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/manipulation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/manipulation/_evalUrl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/manipulation/buildFragment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/manipulation/getAll.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/manipulation/setGlobalEval.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/manipulation/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/manipulation/var/rcheckableType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/manipulation/var/rscriptType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/manipulation/var/rtagName.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/manipulation/wrapMap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/offset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/outro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/queue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/queue/delay.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/selector-native.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/selector-sizzle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/selector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/serialize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/traversing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/traversing/findFilter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/traversing/var/dir.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/traversing/var/rneedsContext.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/traversing/var/siblings.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/arr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/class2type.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/concat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/document.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/documentElement.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/hasOwn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/indexOf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/pnum.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/push.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/rcssNum.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/rnotwhite.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/slice.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/var/toString.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/node_modules/jquery/src/wrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/server.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/spec/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/spec/uploader-spec.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/spec/uploader-spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/src/uploader.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/simple-uploader/umd.hbs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/simditor.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/hotkeys.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/module.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/simditor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/uploader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/assets/editor/css/simditor.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/assets/editor/js/hotkeys.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/assets/editor/js/module.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/assets/editor/js/simditor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/assets/editor/js/uploader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/.scrutinizer.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/autoload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/cdn_get_bandwidth.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/cdn_get_flux.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/cdn_get_log_list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/cdn_refresh_urls_dirs.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/cdn_timestamp_antileech.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/image_url_builder.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/persistent_fop_init.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/persistent_fop_status.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/pfop_mkzip.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/pfop_vframe.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/pfop_video_avthumb.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/pfop_watermark.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/php-logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/prefop.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/qetag.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_batch_change_mime.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_batch_change_type.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_batch_copy.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_batch_delete.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_batch_delete_after_days.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_batch_move.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_batch_stat.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_bucket_domains.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_buckets.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_change_mime.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_change_type.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_copy.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_delete.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_delete_after_days.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_download_urls.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_fetch.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_move.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_prefetch.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rs_stat.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rsf_list_bucket.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/rsf_list_files.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/saveas.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/upload_and_callback.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/upload_and_pfop.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/upload_mgr_init.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/upload_multi_demos.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/upload_simple_file.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/upload_tokens.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/examples/upload_verify_callback.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/phpunit.xml.dist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Auth.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Cdn/CdnManager.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Config.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Etag.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Http/Client.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Http/Error.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Http/Request.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Http/Response.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Processing/ImageUrlBuilder.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Processing/Operation.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Processing/PersistentFop.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Storage/BucketManager.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Storage/FormUploader.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Storage/ResumeUploader.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Storage/UploadManager.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/Zone.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/src/Qiniu/functions.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/test-env.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/AuthTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/Base64Test.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/BucketTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/CdnManagerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/Crc32Test.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/DownloadTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/EtagTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/FopTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/FormUpTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/HttpTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/ImageUrlBuilderTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/PfopTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/ResumeUpTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/Qiniu/Tests/ZoneTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/qiniu/php-sdk/tests/bootstrap.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/config/UEditorUpload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/lang/en/upload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/lang/zh_CN/upload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/lang/zh_TW/upload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/anchor/anchor.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/attachment.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/attachment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/attachment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/fileTypeImages/icon_chm.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/fileTypeImages/icon_default.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/fileTypeImages/icon_doc.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/fileTypeImages/icon_exe.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/fileTypeImages/icon_jpg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/fileTypeImages/icon_mp3.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/fileTypeImages/icon_mv.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/fileTypeImages/icon_pdf.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/fileTypeImages/icon_ppt.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/fileTypeImages/icon_psd.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/fileTypeImages/icon_rar.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/fileTypeImages/icon_txt.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/fileTypeImages/icon_xls.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/images/alignicon.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/images/alignicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/images/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/images/file-icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/images/file-icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/images/icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/images/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/images/image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/images/progress.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/images/success.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/attachment/images/success.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/background/background.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/background/background.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/background/background.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/background/images/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/background/images/success.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/charts/chart.config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/charts/charts.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/charts/charts.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/charts/charts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/charts/images/charts0.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/charts/images/charts1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/charts/images/charts2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/charts/images/charts3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/charts/images/charts4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/charts/images/charts5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/emotion/emotion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/emotion/emotion.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/emotion/emotion.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/emotion/images/0.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/emotion/images/bface.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/emotion/images/cface.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/emotion/images/fface.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/emotion/images/jxface2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/emotion/images/neweditor-tab-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/emotion/images/tface.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/emotion/images/wface.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/emotion/images/yface.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/gmap/gmap.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/help/help.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/help/help.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/help/help.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/image/image.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/image/image.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/image/image.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/image/images/alignicon.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/image/images/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/image/images/icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/image/images/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/image/images/image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/image/images/progress.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/image/images/success.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/image/images/success.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/insertframe/insertframe.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/internal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/link/link.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/map/map.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/map/show.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/music/music.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/music/music.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/music/music.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/preview/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/addimg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/brush.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/delimg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/delimgH.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/empty.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/emptyH.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/eraser.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/redo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/redoH.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/scale.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/scaleH.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/size.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/undo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/images/undoH.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/scrawl.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/scrawl.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/scrawl/scrawl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/searchreplace/searchreplace.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/searchreplace/searchreplace.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/snapscreen/snapscreen.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/spechars/spechars.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/spechars/spechars.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/table/dragicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/table/edittable.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/table/edittable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/table/edittable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/table/edittd.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/table/edittip.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/template/config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/template/images/bg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/template/images/pre0.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/template/images/pre1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/template/images/pre2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/template/images/pre3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/template/images/pre4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/template/template.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/template/template.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/template/template.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/images/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/images/center_focus.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/images/file-icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/images/file-icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/images/icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/images/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/images/image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/images/left_focus.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/images/none_focus.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/images/progress.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/images/right_focus.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/images/success.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/images/success.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/video.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/video.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/video/video.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/webapp/webapp.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/wordimage/fClipboard_ueditor.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/wordimage/imageUploader.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/wordimage/tangram.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/wordimage/wordimage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/dialogs/wordimage/wordimage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/addimage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/alldeletebtnhoverskin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/alldeletebtnupskin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/copy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/deletedisable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/deleteenable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/listbackground.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/localimage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/music.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/rotateleftdisable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/rotateleftenable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/rotaterightdisable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/rotaterightenable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/en/images/upload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/zh-cn/images/copy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/zh-cn/images/localimage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/zh-cn/images/music.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/zh-cn/images/upload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/zh-cn/zh-cn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/zh-tw/images/copy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/zh-tw/images/localimage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/zh-tw/images/music.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/zh-tw/images/upload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/lang/zh-tw/zh-tw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/css/ueditor.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/css/ueditor.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/dialogbase.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/anchor.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/arrow_down.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/arrow_up.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/button-bg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/cancelbutton.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/charts.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/cursor_h.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/cursor_h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/cursor_v.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/cursor_v.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/dialog-title-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/filescan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/highlighted.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/icons-all.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/loaderror.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/lock.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/neweditor-tab-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/pagebreak.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/scale.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/sortable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/spacer.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/sparator_v.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/table-cell-align.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/tangram-colorpicker.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/toolbar_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/unhighlighted.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/upload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/videologo.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/word.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/default/images/wordpaste.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/themes/iframe.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/SyntaxHighlighter/shCore.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/SyntaxHighlighter/shCoreDefault.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/codemirror/codemirror.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/codemirror/codemirror.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/adapters/mootools-adapter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/adapters/mootools-adapter.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/adapters/prototype-adapter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/adapters/prototype-adapter.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/adapters/standalone-framework.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/adapters/standalone-framework.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/highcharts-more.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/highcharts-more.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/highcharts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/highcharts.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/annotations.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/annotations.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/canvas-tools.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/canvas-tools.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/data.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/drilldown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/drilldown.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/exporting.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/exporting.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/funnel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/funnel.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/heatmap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/heatmap.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/map.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/map.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/no-data-to-display.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/modules/no-data-to-display.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/themes/dark-blue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/themes/dark-green.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/themes/gray.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/themes/grid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/highcharts/themes/skies.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/jquery-1.10.2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/jquery-1.10.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/jquery-1.10.2.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/snapscreen/UEditorSnapscreen.exe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/video-js/font/vjs.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/video-js/font/vjs.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/video-js/font/vjs.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/video-js/font/vjs.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/video-js/video-js.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/video-js/video-js.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/video-js/video-js.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/video-js/video.dev.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/video-js/video.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/webuploader/Uploader.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/webuploader/webuploader.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/webuploader/webuploader.custom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/webuploader/webuploader.custom.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/webuploader/webuploader.flashonly.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/webuploader/webuploader.flashonly.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/webuploader/webuploader.html5only.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/webuploader/webuploader.html5only.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/webuploader/webuploader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/webuploader/webuploader.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/webuploader/webuploader.withoutimage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/webuploader/webuploader.withoutimage.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/xss.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/zeroclipboard/ZeroClipboard.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/zeroclipboard/ZeroClipboard.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/third-party/zeroclipboard/ZeroClipboard.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/ueditor.all.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/ueditor.all.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/ueditor.config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/ueditor.parse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/public/ueditor.parse.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/views/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/resources/views/head.blade.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/src/Controller.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/src/Lists.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/src/ListsQiniu.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/src/UEditorServiceProvider.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/src/Uploader/Upload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/src/Uploader/UploadCatch.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/src/Uploader/UploadFile.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/src/Uploader/UploadQiniu.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor/src/Uploader/UploadScrawl.php" />
       <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" afterPath="$PROJECT_DIR$/.idea/larabbs.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -19,6 +996,7 @@
       <change beforePath="$PROJECT_DIR$/resources/views/topics/_sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/topics/_sidebar.blade.php" />
       <change beforePath="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
@@ -44,8 +1022,8 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="45" column="84" lean-forward="false" selection-start-line="45" selection-start-column="84" selection-end-line="45" selection-end-column="84" />
+            <state relative-caret-position="599">
+              <caret line="46" column="57" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -54,7 +1032,7 @@
       <file leaf-file-name="_topics.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/users/_topics.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
+            <state relative-caret-position="599">
               <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="21" />
               <folding>
                 <marker date="1518425290460" expanded="true" signature="5:19" ph="..." />
@@ -69,42 +1047,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_and_edit.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="create_and_edit.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="32" column="77" lean-forward="false" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
+            <state relative-caret-position="211">
+              <caret line="38" column="65" lean-forward="false" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
               <folding>
-                <marker date="1518454187081" expanded="true" signature="9:22" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="34:43" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="348:358" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="569:583" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="610:620" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="662:698" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="899:922" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="1088:1102" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="1271:1301" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="1694:1715" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="1782:1794" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="1800:1814" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="2180:2208" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="2665:2673" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="2726:2753" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="2780:2789" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="2834:2857" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="2914:2938" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="2995:3020" ph="..." />
-                <marker date="1518454187081" expanded="true" signature="3077:3102" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="9:22" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="34:43" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="348:358" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="569:583" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="610:620" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="662:698" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="899:922" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="1088:1102" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="1271:1301" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="1694:1715" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="1782:1794" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="1800:1814" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="2180:2208" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="2665:2673" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="2726:2753" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="2780:2789" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="2834:2857" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="2914:2938" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="2995:3020" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="3077:3102" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="3302:3332" ph="..." />
+                <marker date="1518481617409" expanded="true" signature="3378:3392" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicsController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TopicsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TopicsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="240">
+              <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="19" />
               <folding>
                 <element signature="e#40#49#0#PHP" expanded="true" />
               </folding>
@@ -126,10 +1106,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>image</find>
-      <find>src</find>
-      <find>avat</find>
-      <find>编辑</find>
       <find>sidebar.blade.php</find>
       <find>route</find>
       <find>topi</find>
@@ -156,6 +1132,10 @@
       <find>TopicRequest</find>
       <find>excerpt</find>
       <find>__</find>
+      <find>uploadImage</find>
+      <find>@section('scripts')</find>
+      <find>csrf_token</find>
+      <find>categories</find>
     </findStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
@@ -198,7 +1178,6 @@
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/TopicsTableSeeder.php" />
         <option value="$PROJECT_DIR$/config/debugbar.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/topics/_topic_list.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/topics/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" />
@@ -215,11 +1194,12 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/app/Models/Topic.php" />
-        <option value="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" />
         <option value="$PROJECT_DIR$/bootstrap/helpers.php" />
         <option value="$PROJECT_DIR$/app/Observers/TopicObserver.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/TopicRequest.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" />
       </list>
     </option>
   </component>
@@ -442,12 +1422,12 @@
       <workItem from="1518407140989" duration="3063000" />
       <workItem from="1518414560362" duration="10428000" />
       <workItem from="1518440618399" duration="10538000" />
-      <workItem from="1518480800444" duration="346000" />
+      <workItem from="1518480800444" duration="1065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51138000" />
+    <option name="totallyTimeSpent" value="51857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -609,6 +1589,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="1719" column="20" lean-forward="false" selection-start-line="1719" selection-start-column="20" selection-end-line="1719" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -761,30 +1742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/users/_topics.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <marker date="1518425290460" expanded="true" signature="5:19" ph="..." />
-            <marker date="1518425290460" expanded="true" signature="68:85" ph="..." />
-            <marker date="1518425290460" expanded="true" signature="155:189" ph="..." />
-            <marker date="1518425290460" expanded="true" signature="216:231" ph="..." />
-            <marker date="1518425290460" expanded="true" signature="320:341" ph="..." />
-            <marker date="1518425290460" expanded="true" signature="402:439" ph="..." />
-            <marker date="1518425290460" expanded="true" signature="586:605" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="45" column="84" lean-forward="false" selection-start-line="45" selection-start-column="84" selection-end-line="45" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -803,6 +1760,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-279">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -844,35 +1802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="32" column="77" lean-forward="false" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
-          <folding>
-            <marker date="1518454187081" expanded="true" signature="9:22" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="34:43" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="348:358" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="569:583" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="610:620" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="662:698" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="899:922" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="1088:1102" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="1271:1301" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="1694:1715" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="1782:1794" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="1800:1814" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="2180:2208" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="2665:2673" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="2726:2753" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="2780:2789" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="2834:2857" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="2914:2938" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="2995:3020" ph="..." />
-            <marker date="1518454187081" expanded="true" signature="3077:3102" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/TopicRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
@@ -881,12 +1810,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="46" column="57" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/_topics.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <marker date="1518425290460" expanded="true" signature="5:19" ph="..." />
+            <marker date="1518425290460" expanded="true" signature="68:85" ph="..." />
+            <marker date="1518425290460" expanded="true" signature="155:189" ph="..." />
+            <marker date="1518425290460" expanded="true" signature="216:231" ph="..." />
+            <marker date="1518425290460" expanded="true" signature="320:341" ph="..." />
+            <marker date="1518425290460" expanded="true" signature="402:439" ph="..." />
+            <marker date="1518425290460" expanded="true" signature="586:605" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TopicsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="240">
+          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="19" />
           <folding>
             <element signature="e#40#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="38" column="65" lean-forward="false" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+          <folding>
+            <marker date="1518481617409" expanded="true" signature="9:22" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="34:43" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="348:358" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="569:583" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="610:620" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="662:698" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="899:922" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="1088:1102" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="1271:1301" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="1694:1715" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="1782:1794" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="1800:1814" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="2180:2208" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="2665:2673" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="2726:2753" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="2780:2789" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="2834:2857" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="2914:2938" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="2995:3020" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="3077:3102" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="3302:3332" ph="..." />
+            <marker date="1518481617409" expanded="true" signature="3378:3392" ph="..." />
           </folding>
         </state>
       </provider>
