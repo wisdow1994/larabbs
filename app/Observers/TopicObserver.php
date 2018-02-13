@@ -18,4 +18,10 @@ class TopicObserver
     {
         //
     }
+
+    public function saving(Topic $topic)
+    {
+        //文件是自动创建的,类似于python中orm的模型信号或者是叫做
+        $topic->excerpt = make_excerpt($topic->body);
+    }
 }

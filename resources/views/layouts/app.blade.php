@@ -12,6 +12,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('styles')
+    {{--@yield('styles')引入富文本编辑器的css文件--}}
 </head>
 
 <body>
@@ -30,5 +32,7 @@
 
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
+@yield('scripts')
+{{--@yield('scripts')引入富文本编辑器的js文件--}}
 </body>
 </html>

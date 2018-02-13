@@ -17,6 +17,7 @@ class ComposerStaticInit1cccfc53b9604ffc5508099db30d5f3f
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        '841780ea2e1d6545ea3a253239d59c05' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/functions.php',
         '5e8fe2a5ffaded85af682684fe3bbf5a' => __DIR__ . '/..' . '/mews/captcha/src/helpers.php',
         'f960e77410032f236cef8c56617b313e' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/helpers.php',
         '4a1f389d6ce373bda9e57857d3b61c84' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/helpers.php',
@@ -60,10 +61,15 @@ class ComposerStaticInit1cccfc53b9604ffc5508099db30d5f3f
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\ClassLoader\\' => 30,
             'Summerblue\\Generator\\' => 21,
+            'Stevenyangecho\\UEditor\\' => 23,
         ),
         'R' => 
         array (
             'Ramsey\\Uuid\\' => 12,
+        ),
+        'Q' => 
+        array (
+            'Qiniu\\' => 6,
         ),
         'P' => 
         array (
@@ -226,9 +232,17 @@ class ComposerStaticInit1cccfc53b9604ffc5508099db30d5f3f
         array (
             0 => __DIR__ . '/..' . '/summerblue/generator/src',
         ),
+        'Stevenyangecho\\UEditor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stevenyangecho/laravel-u-editor/src',
+        ),
         'Ramsey\\Uuid\\' => 
         array (
             0 => __DIR__ . '/..' . '/ramsey/uuid/src',
+        ),
+        'Qiniu\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu',
         ),
         'Psy\\' => 
         array (
@@ -3209,6 +3223,22 @@ class ComposerStaticInit1cccfc53b9604ffc5508099db30d5f3f
         'Psy\\VersionUpdater\\GitHubChecker' => __DIR__ . '/..' . '/psy/psysh/src/Psy/VersionUpdater/GitHubChecker.php',
         'Psy\\VersionUpdater\\IntervalChecker' => __DIR__ . '/..' . '/psy/psysh/src/Psy/VersionUpdater/IntervalChecker.php',
         'Psy\\VersionUpdater\\NoopChecker' => __DIR__ . '/..' . '/psy/psysh/src/Psy/VersionUpdater/NoopChecker.php',
+        'Qiniu\\Auth' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Auth.php',
+        'Qiniu\\Cdn\\CdnManager' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Cdn/CdnManager.php',
+        'Qiniu\\Config' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Config.php',
+        'Qiniu\\Etag' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Etag.php',
+        'Qiniu\\Http\\Client' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Http/Client.php',
+        'Qiniu\\Http\\Error' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Http/Error.php',
+        'Qiniu\\Http\\Request' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Http/Request.php',
+        'Qiniu\\Http\\Response' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Http/Response.php',
+        'Qiniu\\Processing\\ImageUrlBuilder' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Processing/ImageUrlBuilder.php',
+        'Qiniu\\Processing\\Operation' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Processing/Operation.php',
+        'Qiniu\\Processing\\PersistentFop' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Processing/PersistentFop.php',
+        'Qiniu\\Storage\\BucketManager' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Storage/BucketManager.php',
+        'Qiniu\\Storage\\FormUploader' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Storage/FormUploader.php',
+        'Qiniu\\Storage\\ResumeUploader' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Storage/ResumeUploader.php',
+        'Qiniu\\Storage\\UploadManager' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Storage/UploadManager.php',
+        'Qiniu\\Zone' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Zone.php',
         'Ramsey\\Uuid\\BinaryUtils' => __DIR__ . '/..' . '/ramsey/uuid/src/BinaryUtils.php',
         'Ramsey\\Uuid\\Builder\\DefaultUuidBuilder' => __DIR__ . '/..' . '/ramsey/uuid/src/Builder/DefaultUuidBuilder.php',
         'Ramsey\\Uuid\\Builder\\DegradedUuidBuilder' => __DIR__ . '/..' . '/ramsey/uuid/src/Builder/DegradedUuidBuilder.php',
@@ -3348,6 +3378,15 @@ class ComposerStaticInit1cccfc53b9604ffc5508099db30d5f3f
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'SessionUpdateTimestampHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
+        'Stevenyangecho\\UEditor\\Controller' => __DIR__ . '/..' . '/stevenyangecho/laravel-u-editor/src/Controller.php',
+        'Stevenyangecho\\UEditor\\Lists' => __DIR__ . '/..' . '/stevenyangecho/laravel-u-editor/src/Lists.php',
+        'Stevenyangecho\\UEditor\\ListsQiniu' => __DIR__ . '/..' . '/stevenyangecho/laravel-u-editor/src/ListsQiniu.php',
+        'Stevenyangecho\\UEditor\\UEditorServiceProvider' => __DIR__ . '/..' . '/stevenyangecho/laravel-u-editor/src/UEditorServiceProvider.php',
+        'Stevenyangecho\\UEditor\\Uploader\\Upload' => __DIR__ . '/..' . '/stevenyangecho/laravel-u-editor/src/Uploader/Upload.php',
+        'Stevenyangecho\\UEditor\\Uploader\\UploadCatch' => __DIR__ . '/..' . '/stevenyangecho/laravel-u-editor/src/Uploader/UploadCatch.php',
+        'Stevenyangecho\\UEditor\\Uploader\\UploadFile' => __DIR__ . '/..' . '/stevenyangecho/laravel-u-editor/src/Uploader/UploadFile.php',
+        'Stevenyangecho\\UEditor\\Uploader\\UploadQiniu' => __DIR__ . '/..' . '/stevenyangecho/laravel-u-editor/src/Uploader/UploadQiniu.php',
+        'Stevenyangecho\\UEditor\\Uploader\\UploadScrawl' => __DIR__ . '/..' . '/stevenyangecho/laravel-u-editor/src/Uploader/UploadScrawl.php',
         'Summerblue\\Generator\\Commands\\ScaffoldMakeCommand' => __DIR__ . '/..' . '/summerblue/generator/src/Commands/ScaffoldMakeCommand.php',
         'Summerblue\\Generator\\GeneratorException' => __DIR__ . '/..' . '/summerblue/generator/src/GeneratorException.php',
         'Summerblue\\Generator\\GeneratorsServiceProvider' => __DIR__ . '/..' . '/summerblue/generator/src/GeneratorsServiceProvider.php',
