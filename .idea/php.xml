@@ -88,6 +88,8 @@
       <path value="$PROJECT_DIR$/vendor/hieu-le/active" />
       <path value="$PROJECT_DIR$/vendor/stevenyangecho/laravel-u-editor" />
       <path value="$PROJECT_DIR$/vendor/qiniu/php-sdk" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/mews/purifier" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7" />
