@@ -18,11 +18,11 @@ class User extends Authenticatable
         'name', 'email', 'password', 'introduction', 'avatar'
     ];
 
-    /**
-     * The attributes that should be hidden for arrays.
-     *
-     * @var array
-     */
+    public function isAuthorOf($model)
+    {
+        return $this->id == $model->user_id;
+    }
+
     protected $hidden = [
         'password', 'remember_token',
     ];
