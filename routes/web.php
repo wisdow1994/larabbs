@@ -51,4 +51,5 @@ Route::get('topics/{topic}/{slug?}', 'TopicsController@show')->name('topics.show
 Route::resource('categories', 'CategoriesController', ['only' => ['show']]);//分类的控制器
 Route::post('upload_image', 'TopicsController@uploadImage')->name('topics.upload_image');//编辑器上传图片
 
-Route::resource('replies', 'RepliesController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
+Route::resource('replies', 'RepliesController', ['only' => ['store', 'destroy']]);
+//replies只需要创建和删除两种路由

@@ -6,7 +6,7 @@ namespace App\Models;
 
 class Reply extends Model
 {
-    protected $fillable = ['content'];
+    protected $fillable = ['content', 'topic_id'];//字段的白名单
 
     public function topic()
     {

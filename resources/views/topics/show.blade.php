@@ -67,7 +67,9 @@
             {{-- 用户回复列表 --}}
             <div class="panel panel-default topic-reply">
                 <div class="panel-body">
-                    @include('topics._reply_box', ['topic' => $topic])
+                    @includeWhen(Auth::check(), 'topics._reply_box', ['topic' => $topic])
+                    {{--话题回复功能我们只允许登录用户使用，未登录用户不显示即可--}}
+                    {{--语法->>   @includeWhen($boolean, 'view.name', ['some' => 'data'])--}}
                     @include('topics._reply_list', ['replies' => $topic->replies()->with('user')->get()])
                 </div>
             </div>
