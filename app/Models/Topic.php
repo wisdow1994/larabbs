@@ -32,6 +32,11 @@ class Topic extends Model
         return $this->belongsTo(User::class);//topic之于user,多对一
     }
 
+    public function replies()
+    {
+        return $this->hasMany(Reply::class);//一个话题有多个回复
+    }
+
     public function scopeWithOrder($query, $order)
     {
         // 不同的排序，使用不同的数据读取逻辑
