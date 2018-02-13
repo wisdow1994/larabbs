@@ -18,11 +18,6 @@ class User extends Authenticatable
         'name', 'email', 'password', 'introduction', 'avatar'
     ];
 
-    public function isAuthorOf($model)
-    {
-        return $this->id == $model->user_id;
-    }
-
     protected $hidden = [
         'password', 'remember_token',
     ];
@@ -31,4 +26,10 @@ class User extends Authenticatable
     {
         return $this->hasMany(Topic::class);//用户之于话题,一对多
     }
+
+    public function isAuthorOf($model)
+    {
+        return $this->id == $model->user_id;
+    }
+
 }

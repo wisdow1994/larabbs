@@ -16,6 +16,12 @@ class Topic extends Model
      */
     protected $fillable = ['title', 'body', 'category_id', 'excerpt', 'slug'];
 
+    public function link($params = [])
+    {
+        return route('topics.show', array_merge([$this->id, $this->slug], $params));
+        //生成对SEO友好的link,在控制器和view中
+    }
+
     public function category()
     {
         return $this->belongsTo(Category::class);//topic之于category,多对一

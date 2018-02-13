@@ -42,6 +42,11 @@ Route::get('/users/{user}/edit', 'UsersController@edit')->name('users.edit');
 Route::patch('/users/{user}', 'UsersController@update')->name('users.update');
  */
 
-Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
+Route::resource('topics', 'TopicsController', ['only' => ['index', 'create', 'store', 'update', 'edit', 'destroy']]);
+Route::get('topics/{topic}/{slug?}', 'TopicsController@show')->name('topics.show');
+//SEO友好的url规则,slug默认是标题的百度翻译,? 意味着参数可选，这是为了兼容我们数据库中 Slug 为空的话题数据。
+//    http://larabbs.app/topics/119  http://larabbs.app/topics/119/slug-translation-test
+
+
 Route::resource('categories', 'CategoriesController', ['only' => ['show']]);//分类的控制器
 Route::post('upload_image', 'TopicsController@uploadImage')->name('topics.upload_image');//编辑器上传图片
