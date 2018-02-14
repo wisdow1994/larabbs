@@ -33,4 +33,11 @@ class TopicObserver
             dispatch(new TranslateSlug($topic));
         }
     }
+
+    public function deleted(Topic $topic)
+    {
+        //监听deleted信号,当话题被删除时,所关联的回复也要全部删除
+        //需要注意的是，在模型监听器中，数据库操作需要避免再次 Elequent 事件和信号的死循环，所以这里我们使用了 DB 类进行操作
+        \DB::table('replies')->where('topic_id', $topic->id)->delete();
+    }
 }

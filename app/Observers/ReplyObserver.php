@@ -29,4 +29,10 @@ class ReplyObserver
 
         //防止XSS注入攻击，清洗提交的数据,如果有js代码,效果会体现给用户自己,但不会保存在后台的数据库中
     }
+
+    public function deleted(Reply $reply)
+    {
+        //相应的,回复被删除时,话题的reply_count也要减去1
+        $reply->topic->decrement('reply_count', 1);
+    }
 }
