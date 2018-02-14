@@ -31,6 +31,11 @@
     @include('layouts._footer')
 </div>
 
+@if (app()->isLocal())
+    @include('sudosu::user-selector')
+@endif
+{{--开放环境下，用户快捷切换的插件--}}
+
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
 @yield('scripts')

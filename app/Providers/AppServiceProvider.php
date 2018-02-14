@@ -27,6 +27,16 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+
+        /*
+         * sudo-su 本地开发环境下的用户切换工具，来提高我们的效率
+         * composer require "viacreative/sudo-su:~1.1"
+         * 服务注册
+         * php artisan vendor:publish --provider="VIACreative\SudoSu\ServiceProvider"
+         * 会生成：/public/sudo-su 前端 CSS 资源存放文件夹；config/sudosu.php 配置信息文件
+         */
+        if (app()->isLocal()) {
+            $this->app->register(\VIACreative\SudoSu\ServiceProvider::class);
+        }//
     }
 }
