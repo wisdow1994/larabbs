@@ -7,11 +7,6 @@ use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvid
 
 class AuthServiceProvider extends ServiceProvider
 {
-    /**
-     * The policy mappings for the application.
-     *
-     * @var array
-     */
     protected $policies = [
 		 \App\Models\Reply::class => \App\Policies\ReplyPolicy::class,
 		 \App\Models\Topic::class => \App\Policies\TopicPolicy::class,
@@ -19,11 +14,6 @@ class AuthServiceProvider extends ServiceProvider
         \App\Models\User::class  => \App\Policies\UserPolicy::class,//在此处注册自定义的授权认证策略
     ];
 
-    /**
-     * Register any authentication / authorization services.
-     *
-     * @return void
-     */
     public function boot()
     {
         $this->registerPolicies();
@@ -33,7 +23,7 @@ class AuthServiceProvider extends ServiceProvider
          * auth 方法能够接受一个回调函数，此回调函数需要返回 true 或 false ，
          * 从而确认当前用户是否有权限访问 Horizon 仪表盘。接下来我们定义 /horizon 的访问权限，只有 站长 才有权限查看：
          */
-        
+
         \Horizon::auth(function ($request) {
             // 是否是站长
             return \Auth::user()->hasRole('Founder');
