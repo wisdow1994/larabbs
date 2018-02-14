@@ -53,3 +53,5 @@ Route::post('upload_image', 'TopicsController@uploadImage')->name('topics.upload
 
 Route::resource('replies', 'RepliesController', ['only' => ['store', 'destroy']]);
 //replies只需要创建和删除两种路由
+
+Route::resource('notifications', 'NotificationsController', ['only' => ['index']]);

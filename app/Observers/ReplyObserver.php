@@ -3,6 +3,7 @@
 namespace App\Observers;
 
 use App\Models\Reply;
+use App\Notifications\TopicReplied;
 
 // creating, created, updating, updated, saving,
 // saved,  deleting, deleted, restoring, restored
@@ -11,8 +12,15 @@ class ReplyObserver
 {
     public function created(Reply $reply)
     {
+        $topic = $reply->topic;
         $reply->topic->increment('reply_count', 1);
         //reply模型创建成功后,属于的topic->reply_count增加1
+
+        // 监控回复的created信号,通知作者话题被人回复了
+        $topic->user->notify(new TopicReplied($reply));
+        //默认的 User 模型中使用了 trait —— Notifiable，
+        //它包含着一个可以用来发通知的方法 notify() ，此方法接收一个通知实例做参数
+        //但是在User模型中,重写了notify(),定制了更多的功能
     }
 
     public function creating(Reply $reply)
