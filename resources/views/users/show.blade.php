@@ -21,6 +21,8 @@
                         <h4><strong>注册于</strong></h4>
                         <p>{{ $user->created_at->diffForHumans() }}</p>
                         {{--友好的时间戳显示,但是显示的时英文,需要在app/Providers/AppServiceProvider.php添加zh显示--}}
+                        <h4><strong>最后活跃</strong></h4>
+                        <p title="{{  $user->last_actived_at }}">{{ $user->last_actived_at->diffForHumans() }}</p>
                     </div>
                 </div>
             </div>

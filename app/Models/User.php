@@ -9,6 +9,8 @@ use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
+    //自定义的方法,用来获取和设置最后登录时间
+    use Traits\LastActivedAtHelper;
     //使用自定义的活跃算法,用来获取活跃用户
     use Traits\ActiveUserHelper;
     //使用 laravel-permission 提供的 Trait —— HasRoles此举能让我们获取到扩展包提供的所有权限和角色的操作方法
