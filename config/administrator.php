@@ -48,7 +48,8 @@ return array(
             'replies',
         ],
         '站点设置' => [
-            'settings.site',
+            'settings.site',//站点信息设置
+            'links',//侧边栏资源推荐
         ],
     ],
 

@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Console\\Commands\\CalculateActiveUser' => $baseDir . '/app/Console/Commands/CalculateActiveUser.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Handlers\\ImageUploadHandler' => $baseDir . '/app/Handlers/ImageUploadHandler.php',
@@ -33,9 +34,11 @@ return array(
     'App\\Http\\Requests\\UserRequest' => $baseDir . '/app/Http/Requests/UserRequest.php',
     'App\\Jobs\\TranslateSlug' => $baseDir . '/app/Jobs/TranslateSlug.php',
     'App\\Models\\Category' => $baseDir . '/app/Models/Category.php',
+    'App\\Models\\Link' => $baseDir . '/app/Models/Link.php',
     'App\\Models\\Model' => $baseDir . '/app/Models/Model.php',
     'App\\Models\\Reply' => $baseDir . '/app/Models/Reply.php',
     'App\\Models\\Topic' => $baseDir . '/app/Models/Topic.php',
+    'App\\Models\\Traits\\ActiveUserHelper' => $baseDir . '/app/Models/Traits/ActiveUserHelper.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Notifications\\TopicReplied' => $baseDir . '/app/Notifications/TopicReplied.php',
     'App\\Observers\\ReplyObserver' => $baseDir . '/app/Observers/ReplyObserver.php',
@@ -48,8 +51,10 @@ return array(
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',
     'App\\Providers\\BroadcastServiceProvider' => $baseDir . '/app/Providers/BroadcastServiceProvider.php',
+    'App\\Providers\\ComposerServiceProvider' => $baseDir . '/app/Providers/ComposerServiceProvider.php',
     'App\\Providers\\EventServiceProvider' => $baseDir . '/app/Providers/EventServiceProvider.php',
     'App\\Providers\\RouteServiceProvider' => $baseDir . '/app/Providers/RouteServiceProvider.php',
+    'App\\ViewComposers\\ActiveUserComposer' => $baseDir . '/app/ViewComposers/ActiveUserComposer.php',
     'ArithmeticError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
     'AssertionError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
     'Barryvdh\\Debugbar\\Console\\ClearCommand' => $vendorDir . '/barryvdh/laravel-debugbar/src/Console/ClearCommand.php',
@@ -2232,6 +2237,7 @@ return array(
     'League\\Flysystem\\Util\\ContentListingFormatter' => $vendorDir . '/league/flysystem/src/Util/ContentListingFormatter.php',
     'League\\Flysystem\\Util\\MimeType' => $vendorDir . '/league/flysystem/src/Util/MimeType.php',
     'League\\Flysystem\\Util\\StreamHasher' => $vendorDir . '/league/flysystem/src/Util/StreamHasher.php',
+    'LinkSeeder' => $baseDir . '/database/seeds/LinkSeeder.php',
     'Mews\\Captcha\\Captcha' => $vendorDir . '/mews/captcha/src/Captcha.php',
     'Mews\\Captcha\\CaptchaController' => $vendorDir . '/mews/captcha/src/CaptchaController.php',
     'Mews\\Captcha\\CaptchaServiceProvider' => $vendorDir . '/mews/captcha/src/CaptchaServiceProvider.php',
