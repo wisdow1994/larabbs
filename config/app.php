@@ -141,6 +141,7 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
+        App\Providers\ComposerServiceProvider::class,//注册视图合成器的服务
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,//代码提示插件
         Stevenyangecho\UEditor\UEditorServiceProvider::class,//UEditor富文本编辑器
         Illuminate\Auth\AuthServiceProvider::class,

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Auth;
+use App\Models\User;
 use App\Models\Topic;
 use App\Models\Category;
 use Illuminate\Http\Request;
@@ -17,15 +18,18 @@ class TopicsController extends Controller
         $this->middleware('auth', ['except' => ['index', 'show']]);
     }
 
-    public function index(Request $request, Topic $topic)
+    public function index(Request $request, Topic $topic, User $user)
 	{
 //		$topics = Topic::paginate(30);//会有一个N+1问题存在,sql查询次数为30*2+1次查询,时间为11.6s
 //        $topics = Topic::with('user', 'category')->paginate(30);
         //可以通过 Eloquent 提供的 预加载功能 来解决此问题，sql查询次数为5次,时间为2.6s
 
         $topics = $topic->withOrder($request->order)->paginate(20);
+//        $active_users = $user->getActiveUsers();
+        //已经注册了一个视图合成器,不用再多个控制器中传递active_users参数了
         //withOrder方法已经封装了with方法用于预加载
         //$request->order 是获取 URI http://larabbs.test/topics?order=recent 中的 order 参数
+//        return view('topics.index', compact('topics', 'active_users'));
         return view('topics.index', compact('topics'));
 	}
 
