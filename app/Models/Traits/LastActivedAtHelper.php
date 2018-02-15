@@ -52,6 +52,7 @@ trait LastActivedAtHelper
 
     public function getLastActivedAtAttribute($value)
     {
+        //这个工具方法会被use在User模型中,相当于在Model中定义了Eloquent的访问器,解析后的字段格式:last_active_at下
         // 获取今日对应的哈希表名称
         $hash = $this->getHashFromDateString(Carbon::now()->toDateString());
 
