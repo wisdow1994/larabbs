@@ -20,11 +20,6 @@ class AppServiceProvider extends ServiceProvider
         \Carbon\Carbon::setLocale('zh');//时间戳显示的中文化支持
     }
 
-    /**
-     * Register any application services.
-     *
-     * @return void
-     */
     public function register()
     {
 

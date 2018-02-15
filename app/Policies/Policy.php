@@ -8,11 +8,6 @@ class Policy
 {
     use HandlesAuthorization;
 
-    public function __construct()
-    {
-        //
-    }
-
     public function before($user, $ability)
 	{
 	    //代码生成器所生成的授权策略，都会统一继承 App\Policies\Policy 基类，
@@ -21,5 +16,6 @@ class Policy
         if ($user->can('manage_contents')) {
             return true;
         }
+
 	}
 }

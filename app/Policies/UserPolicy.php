@@ -20,4 +20,12 @@ class UserPolicy
         */
         return $currentUser->id === $user->id;
     }
+
+    //只有删除模型的功能不生效
+//    public function destroy(User $user)
+//    {
+//        if ($user->can('manage_users')) {
+//            return true;
+//        }
+//    }
 }
